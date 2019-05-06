@@ -14,4 +14,4 @@ fieldset {
   
   Prerequisites
   
-  A knowledge of HTML5 is a pre-requisite for this course
+  A knowledge of HTML5 is a pre-requisite for this course.
