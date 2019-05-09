@@ -6,7 +6,8 @@ Course work for the CSS3 class at Fanshawe College. The repository will be split
 
 Week 2 - Introduction to Selectors and Advanced Selectors
 
-```fieldset {
+```
+fieldset {
 border: 0;
 margin: 0;
 padding: 0;
