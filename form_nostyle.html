@@ -1,4 +1,4 @@
-﻿<html>
+<html>
 <head>
 	<title>Sign Up Form</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,29 +8,31 @@
 </head>
 
 <body>
-
-	<h1 id='form-header'>Soccer Player Registration Form</h1>
-	<h2 id='form-header2'>Summer 2019</h2>
+<div>
+	<h1 id='form-header'><b>Soccer Player Registration Form</b></h1>
+	<h2 id='form-header2'><p><b>Summer 2019</b></p></h2>
+</div>
 		<form>
-
+		
 			<p>
 			<label><b>Name</b>
 			<input type="text" name="customer_name" required><span id='required'>*</span>
 			</label> 
 			</p>
-
+		
 			<p>
 			<label><b>Phone</b>
 			<input type="tel" name="phone_number" required><span id='required'>*</span>
 			</label>
 			</p>
-
+		 
 			<p>
 			<label><b>Email</b>
 			<input type="email" name="email_address" required><span id='required'>*</span>
 			</label>
 			</p>
-
+		 
+		<div class='color'>
 			<fieldset>
 			<legend>What is your preferred position?</legend>
 			<p><label> <input type="radio" name="position" required value="F"> Forward </label></p>
@@ -38,9 +40,11 @@
 			<p><label> <input type="radio" name="position" required value="D"> Defense </label></p>
 			<p><label> <input type="radio" name="position" required value="GK"> Goal Keeper</label></p>
 			</fieldset>
-
+		</div>
 			<br>
+		<div>
 			<label id='optfields'>Optional Fields</label>
+		</div>
 			<p>
 			<label>Preferred Start Date
 			<input type="date" name="pickup_time" optional>
@@ -86,8 +90,14 @@
 
 			<p><button>Submit Form</button></p>
 			<br>
+		<div>
 			<p style="color:red">* Required fields</p>
-
+		</div>
 		</form>
+	<div>
+	<footer>
+		<p style="color:black">&copy; Soccer Registration 2019</p>
+	</footer>
+	</div>
 	</body>
 </html>
