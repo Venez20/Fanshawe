@@ -6,13 +6,13 @@ body {
   background-color: black;
 }
 
-h1#form-header {
+h1#form-header b{
 		color: Purple;
 		font-weight: bold;
 		font: 2em calibri;
 }
 
-h2#form-header2 {
+h2#form-header2 b{
 		color: yellow;
 		font-weight: bold;
 		font: 2em calibri;
@@ -29,6 +29,40 @@ fieldset {
 
 #optfields {
   color: green;
+}
+
+div h1 {
+  background-color: yellow;
+  width: 900px
+} 
+
+p b{ 
+color: lightblue;
+} 
+
+div > label {
+  background-color: yellow;
+  width: 500px
+}
+
+div > p {
+  background-color: green;
+  width: 500px;
+}
+
+
+div.color > p {
+color: red
+}
+
+h2 + p {
+  background-color: white;
+  width: 500px;
+}
+
+div ~ p {
+  background-color: red;
+  width: 500px;
 }
 
 @media screen and (max-width: 520px) {
